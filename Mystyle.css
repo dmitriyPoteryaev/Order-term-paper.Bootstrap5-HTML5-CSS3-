@@ -1,0 +1,295 @@
+.Left-Panel {
+  color: #7d7d7d;
+  border: 0;
+  background: white;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Left-Panel:hover {
+  color: black;
+  font-weight: bold;
+  border-left: solid #6666cc;
+}
+
+.Right-Panel {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #6E6E6E;
+}
+
+.Right-top-button-green {
+  width: 180px;
+  height: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background: #55c97b;
+  border-radius: 0%;
+  border: 0px;
+
+}
+
+.Right-button-green {
+  width: 140px;
+  height: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background: #55c97b;
+  border-radius: 0%;
+  border: 0px;
+
+}
+
+.Right-button-gray {
+  width: 140px;
+  height: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  border-radius: 0%;
+  border: 0px;
+
+}
+
+.popup {
+  position: fixed;
+  width: 30%;
+  background-color: #fff;
+  top: 200px;
+  left: 600px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1024px) {
+  .popup {
+    width: 60%;
+    top: 64px;
+    left: 24px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .popup {
+    width: 90%;
+  }
+
+}
+
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup_body {
+  min-height: 400px;
+
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.popup_content {
+  background-color: #fff;
+
+  max-width: 600px;
+  max-height: 40%;
+  position: relative;
+}
+
+.popup_close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+
+}
+
+.popup_title {
+  color: black;
+}
+
+.popup_text {
+  color: black;
+}
+
+
+
+
+
+.work5 {
+  background-color: #6666cc;
+}
+
+.mobileLeft {
+  display: none;
+}
+
+.mobileRight {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .mobileRight {
+    display: block;
+  }
+
+  .desktopRight {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .mobileLeft {
+    display: block;
+  }
+
+
+  .desktopLeft {
+    display: none;
+  }
+}
+
+
+
+
+.popupShop {
+  position: fixed;
+  width: 617px;
+  height: 436x;
+  background-color: #fff;
+  top: 200px;
+
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1024px) {
+  .popupShop {
+    width: 60%;
+    top: 64px;
+    left: 24px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .popupShop {
+    width: 90%;
+  }
+
+}
+
+.popupShop:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popupShop_body {
+  min-height: 400px;
+
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.popupShop_content {
+  background-color: #fff;
+
+  max-width: 750px;
+  max-height: 40%;
+  position: relative;
+}
+
+.popupShop_close {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  font-size: 20px;
+
+}
+
+.popupShop_title {
+  color: black;
+}
+
+
+
+.attention {
+
+  margin: 10px;
+  width: 10px;
+  height: 10px;
+  border: 3px solid #6666cc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+
+}
+
+.info {
+
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.Message {
+  display: flex;
+  padding: 20px;
+  margin-right: 20px;
+  border: solid;
+  border-color: grey;
+  border-radius: 20%;
+  height: 65px;
+  align-items: center;
+
+}
+
+.Name {
+  display: flex;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+  padding: 30px;
+  margin-right: 30px;
+  border-radius: 1%;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+  width: 270px;
+  height: 65px;
+  align-items: center;
+
+}
+
+
+.Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 10px;
+  height: 10px;
+  border: 3px solid #6666cc;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+
+
+
+
+}
+
+.Home {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: #656565;
+
+
+}

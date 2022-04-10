@@ -124,6 +124,7 @@
 
 .mobileLeft {
   display: none;
+  margin-left: 20px;
 }
 
 .mobileRight {
@@ -137,6 +138,7 @@
 
   .desktopRight {
     display: none;
+    margin-top: 0px;
   }
 
 }
@@ -212,6 +214,12 @@
 
 }
 
+.popupShop_text{
+  font-size: 2px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
 .popupShop_title {
   color: black;
 }
@@ -244,6 +252,7 @@
   display: flex;
   padding: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
   border: solid;
   border-color: grey;
   border-radius: 20%;
@@ -264,7 +273,9 @@
   width: 270px;
   height: 65px;
   align-items: center;
-
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 
@@ -279,17 +290,23 @@
   border-radius: 100%;
   width: 60px;
   height: 60px;
-
+ 
 
 
 
 }
 
 .Home {
+
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
   color: #656565;
+ 
+
+}
 
 
+.main {
+margin-left: 300px;
 }
